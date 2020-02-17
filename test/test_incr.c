@@ -65,8 +65,8 @@ void test_incrementRestoresFunctionalityAfterRestoringThreshold(void)
 void test_maxvalBorderConditions(void)
 {
 	int number = number_get();
-	warn_Expect("src/incr.c", 77);
-	warn_IgnoreArg_line();
+	warn_Expect("src/incr.c", 0x28);
+//	warn_IgnoreArg_line();
 	number_maxval_set(-1);
 
 	number_maxval_set(0);
