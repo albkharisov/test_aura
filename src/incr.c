@@ -23,18 +23,18 @@ static int number = 0;
 static int max_number = INT_MAX;
 
 
-int number_get(void)
+int numberGet(void)
 {
 	return number;
 }
 
-void number_inc(void)
+void numberInc(void)
 {
 	++number;
 	WRAPARAOUND_CHECK();
 }
 
-void number_maxval_set(int maximumValue)
+void numberMaxvalSet(int maximumValue)
 {
 	if (maximumValue < 0) {
 		WARN(0);

@@ -14,7 +14,7 @@
  * @brief 	Get current value of a number.
  * @return	Current value of a number.
  */
-int number_get(void);
+int numberGet(void);
 
 /**
  * @brief 	Increment number value.
@@ -22,7 +22,7 @@ int number_get(void);
  * Wraparound is applied. As soon as value reachs
  * threshold (maximum value), it is cleared to zero.
  */
-void number_inc(void);
+void numberInc(void);
 
 /**
  * @brief		Set threshold of a number.
@@ -34,7 +34,7 @@ void number_inc(void);
  * @note	If number is greater than just set threshold it is
  * 		cleared to zero.
  */
-void number_maxval_set(int threshold);
+void numberMaxvalSet(int threshold);
 
 #endif	// _INCR_H_
 
